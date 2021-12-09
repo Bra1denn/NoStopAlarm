@@ -15,7 +15,7 @@ if (amPm == "pm"):
         alarmH = alarmH + 12
 while(1 == 1):
 
-    if(alarmH == datetime.datetime.now().hour and alarmM == datetime.datetime.now().minute) :
+    if(alarmH == datetime.datetime.now().hour and alarmM == datetime.datetime.now().minute) :# When it gets to the desired time
 
 
         while(1 == 1):
