@@ -3,7 +3,6 @@ import datetime
 from playsound import playsound
 import time
 
-os.system('clear')
 alarmH = int(input("What hour do you want the alarm to ring? "))
 alarmM = int(input("What minute do you want the alarm to ring? "))
 amPm = str(input("am or pm? "))
